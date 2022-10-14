@@ -147,12 +147,19 @@ body{
 
 .tweet__icons{
     float: left;
-    width: 6%;
+    /* width: 6%; */
     fill:rgb(29, 155, 240);
     justify-content: center;
     font-weight: 5%;
-    padding-left: 25px;
+    padding: 7px;
     transition: all 0.3s ease;
+}
+.top-section-icons{
+    margin-left: 84px;
+}
+.tweet__icons svg{
+    width:20px;
+    height: 20px;
 }
 
 .tweet__icons:hover{
@@ -160,7 +167,6 @@ body{
     color: blue;
     cursor: pointer;
     border-radius: 50%;
-    height: 50px;
 }
 
 .tweet__tweetbox{
