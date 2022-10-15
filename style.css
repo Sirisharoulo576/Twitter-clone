@@ -68,11 +68,15 @@ body{
 }
 
 .sidebar{
-    border-right: 1px solid silver;
+   
     flex: 0.5;
     min-width: fit-content;
     padding-left: 20px;
     padding-right: 20px;
+}
+
+.sidebar{
+    border-right: 1px solid silver;
 }
 
 
@@ -93,6 +97,15 @@ body{
     float: right;
     cursor: pointer;
     padding-left: 500px;
+}
+
+.top-tweets{
+    margin-left: 0px;
+}
+
+.top-tweets svg{
+    width: 20px;
+    height: 20px;
 }
 
 
@@ -162,6 +175,11 @@ body{
     height: 20px;
 }
 
+.tweet__icons svg:hover{
+    background-color: rgb(240, 240, 240);
+    border-radius: 50%;
+}
+
 .tweet__icons:hover{
     background-color: rgb(240, 240, 240);
     color: blue;
@@ -185,6 +203,10 @@ body{
     padding-bottom: 50px;
     border-bottom: 1px solid silver;
     padding-right: 1px;
+}
+
+.post{
+    border-bottom: 1px solid silver;
 }
 
 .post__avatar img{
@@ -220,6 +242,11 @@ body{
     padding-bottom: 10px;   
 }
 
+.post__image img{
+    height: 390px;
+
+}
+
 .post__body img{
     width: 450px;
     border-radius: 20px;
@@ -231,7 +258,6 @@ body{
     float: left;
     vertical-align: middle;
     justify-content:space-around;
-    margin-top: 5px;
     font-size: 5px;
     border-bottom-color: rgb(0, 0, 0);
     padding-left: 0px;
@@ -242,9 +268,15 @@ body{
 .post__footer:hover{
     background-color: rgb(240, 240, 240);
     border-radius: 50%;
-    height: 50px;
     cursor: pointer;
 }
+
+.post__footer svg{
+    width: 20px;
+    height: 20px;
+}
+
+
 
 
 .post__headertext{
@@ -268,23 +300,47 @@ body{
 }
 
 .rightbar{
-    flex: 0.3;
-    padding-left: 20px;
+    flex: 0.2;
+    padding: 0 20px;
 }
+
 
 .rightbar__searchbox{
-    width: 300px;
-    height: 50px;
-    font-size: 24px;
-    background-color: white;
-    border: 1px solid rgb(0, 0, 0);
-    display:flex;
-    border-radius: 15px;
+    margin-top: 5px;
+    width: 350px;
+    background-color: rgb(240, 240,240);
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+}
+
+.rightbar__searchbox svg{
+    width: 20px;
+}
+
+.rightbar__searchbox input{
+    width: 100%;
+    background: transparent;
+    padding: 10px;
+    outline: none;
+    border: 0;
 }
 
 
+.rightbar__searchbox{
+    width: 280px;
+    height: 40px;
+    font-size: 24px;
+    border: 1px solid rgb(240, 240, 240);
+}
+
 .feed{
-    border: 1px solid rgb(0, 0, 0);
+    margin-top: 30px;
+}
+
+.feed{
+    border: 1px solid rgb(240, 240, 240);
     width: 20em;
     border-radius: 15px;
     background-color: rgb(240, 240, 240);
@@ -300,11 +356,15 @@ body{
     float: right;
     order: 2;
     padding: 10px 5px;
-    border-radius: 15%;
+    border-radius: 15px;
 }
 
 .text{
     padding: 15px 5px;
+}
+
+.text:hover{
+    background-color: rgb(212, 216, 219);
 }
 
 .text h5{
@@ -364,6 +424,8 @@ body{
     float: right;
     order: 2;
 }
+
+
 
 
 
