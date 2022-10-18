@@ -68,15 +68,13 @@ body{
 }
 
 .sidebar{
-   
-    flex: 0.5;
-    min-width: fit-content;
-    padding-left: 20px;
-    padding-right: 20px;
+    border-right: 1px solid silver;
 }
 
 .sidebar{
-    border-right: 1px solid silver;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-stretch: 100%;
 }
 
 
@@ -335,16 +333,14 @@ body{
     border: 1px solid rgb(240, 240, 240);
 }
 
-.feed{
+
+.actual{
     margin-top: 30px;
+    border: 1px solid rgb(240, 240,240);
+    border-radius: 20px;
+    padding: 5px;
 }
 
-.feed{
-    border: 1px solid rgb(240, 240, 240);
-    width: 20em;
-    border-radius: 15px;
-    background-color: rgb(240, 240, 240);
-}
 
 .feed__news{
     cursor: pointer;
@@ -359,12 +355,14 @@ body{
     border-radius: 15px;
 }
 
-.text{
-    padding: 15px 5px;
+.feed h3{
+    font-family: arial;
+    margin-top: 5px;
+    margin-bottom: 20px;
 }
 
 .text:hover{
-    background-color: rgb(212, 216, 219);
+    background-color: lavender;
 }
 
 .text h5{
@@ -380,8 +378,20 @@ body{
     color:rgb(29, 155, 240);
 }
 
+
+.text2 svg{
+    float: right;
+    order:2;
+    weight: 20px;
+    height: 20px;
+}
+
 .text2:hover{
-    background-color: rgb(212, 216, 219);
+    background-color: rgb(240, 240, 240);
+}
+
+.text2 h5{
+    padding-top: 5px;
 }
 
 .text2{
@@ -394,6 +404,7 @@ body{
 
 .text2 h4{
     padding: 5px 0px;
+    font-family: arial;
 }
 
 .text2 h6{
@@ -401,7 +412,7 @@ body{
 }
 
 .end:hover{
-    background-color: rgb(212, 216, 219);
+    background-color: rgb(240, 240, 240);
     cursor: pointer;
 }
 
@@ -409,9 +420,8 @@ body{
     color:rgb(29, 155, 240);
 }
 
-
-.follow{
-    padding-top: 25px
+.actual{
+    background-color: lavender;
 }
 
 .dots{
@@ -425,10 +435,110 @@ body{
     order: 2;
 }
 
+.text3:hover{
+    background-color: lavender;
+}
 
+.text4:hover{
+    background-color: rgb(240, 240, 240);
+}
 
+.text3 svg{
+    float: right;
+    order: 2;
+    width: 20px;
+    height: 20px;
+}
+.text3 h3{
+    font-family: arial;
+}
+.text3 h5{
+    font-weight: 100;
+}
 
+.text3 h4{
+    font-family: arial;
+    padding-top: 8px;
+    padding-bottom: 5px;
+}
+.text4 svg{
+    float: right;
+    order: 2;
+    weight: 20px;
+    height: 20px;
+}
 
+.text4 h3{
+    font-family: arial;
+    font-size:medium;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.feed h3{
+    padding-left: 5px;
+}
+
+.text4{
+    padding-top: 8px;
+    padding-bottom: 8px
+}
+
+.text4 h5{
+    font-weight: 100;
+}
+
+.text{
+    padding-left: 5px;
+}
+.text2{
+    padding-left: 5px;
+}
+.text3{
+    padding-left: 5px;
+}
+.text4{
+    padding-left: 5px;
+}
+.end{
+    padding-left: 5px;
+}
+
+.following{
+    margin-top: 20px;
+    border: 1px solid rgb(240, 240, 240);
+    border-radius: 20px;
+    font-family: arial;
+    font-weight: 140;
+}
+.follow h3{
+    padding-left: 15px;
+    padding-top: 10px;
+}
+
+.siri img{
+    border-radius: 50%;
+    height: 50px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.siri img{
+    float: left;
+    margin: 3px 6px 0 0;
+}
+
+.siri h3{
+    padding-top: 15px;
+}
+.siri h4{
+    font-weight: 100;
+    padding-top: 5px;
+}
+.siri button{
+    float: right;
+    cursor: pointer;
+}
 
 
 
