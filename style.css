@@ -30,7 +30,7 @@ svg{
 }
 
 .icons:hover{
-    background-color: lightgrey;
+    background-color: rgb(247,249,249);
     border-radius: 20px;
 }
 
@@ -248,10 +248,8 @@ body{
     cursor: pointer;
 }
 
-
 .post__image img{
     height: 390px;
-
 }
 
 .post__body img{
@@ -350,7 +348,7 @@ body{
     padding: 5px;
 }
 .actual{
-    background-color: rgb(240, 240, 240);
+    background-color: rgb(247, 249, 249);
 }
 
 
@@ -558,7 +556,7 @@ body{
     border-radius: 20px;
     font-family: arial;
     font-weight: 140;
-    background-color: rgb(240, 240, 240);
+    background-color: rgb(247, 249, 249);
 }
 .follow h3{
     padding-left: 15px;
@@ -567,7 +565,7 @@ body{
 
 .siri img{
     border-radius: 50%;
-    height: 50px;
+    height: 47px;
     padding: 10px;
     cursor: pointer;
 }
@@ -583,6 +581,10 @@ body{
 .siri h4{
     font-weight: 100;
     padding-top: 5px;
+}
+
+.siri:hover{
+    background-color: lavender;
 }
 .siri button{
     float: right;
@@ -644,6 +646,9 @@ body{
     margin-left: 260px;
 }
 
+.showh3:hover{
+    background-color: lavendar;
+}
 
 
 
