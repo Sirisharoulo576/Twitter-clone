@@ -60,7 +60,6 @@ svg{
 
 body{
     display:flex;
-    height: 100vh;
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
@@ -76,8 +75,6 @@ body{
     padding-right: 20px;
     font-stretch: 100%;
 }
-
-
 
 .middlebar h2{
     padding: 20px;
@@ -240,6 +237,18 @@ body{
     padding-bottom: 10px;   
 }
 
+.dots svg{
+    width: 20px;
+    height: 20px;
+}
+
+.dots svg:hover{
+    background-color: rgb(240, 240, 240);
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+
 .post__image img{
     height: 390px;
 
@@ -336,9 +345,12 @@ body{
 
 .actual{
     margin-top: 30px;
-    border: 1px solid rgb(240, 240,240);
+    border: 1px solid silver;
     border-radius: 20px;
     padding: 5px;
+}
+.actual{
+    background-color: rgb(240, 240, 240);
 }
 
 
@@ -352,7 +364,11 @@ body{
     float: right;
     order: 2;
     padding: 10px 5px;
-    border-radius: 15px;
+    height: 50px;
+}
+
+.image img{
+    border-radius: 10px;;
 }
 
 .feed h3{
@@ -365,6 +381,34 @@ body{
     background-color: lavender;
 }
 
+.text2:hover{
+    background-color: lavender;
+}
+
+
+.text4{
+    padding-bottom: 18px;
+}
+
+.text{
+    padding-bottom: 8px;
+}
+
+.text h6{
+    font-weight: 60;
+}
+
+
+
+.text2 svg{
+    padding-right: 8px;
+}
+.text3 svg{
+    padding-right: 14px;
+}
+.text4 svg{
+    padding-right: 10px;
+}
 .text h5{
     font-weight: 100;
     font-family: arial;
@@ -386,9 +430,10 @@ body{
     height: 20px;
 }
 
-.text2:hover{
-    background-color: rgb(240, 240, 240);
+.text svg:hover{
+    background-color: lavender;
 }
+
 
 .text2 h5{
     padding-top: 5px;
@@ -412,7 +457,7 @@ body{
 }
 
 .end:hover{
-    background-color: rgb(240, 240, 240);
+    background-color: lavender;
     cursor: pointer;
 }
 
@@ -420,9 +465,7 @@ body{
     color:rgb(29, 155, 240);
 }
 
-.actual{
-    background-color: lavender;
-}
+
 
 .dots{
     float: right;
@@ -440,7 +483,7 @@ body{
 }
 
 .text4:hover{
-    background-color: rgb(240, 240, 240);
+    background-color: lavender;
 }
 
 .text3 svg{
@@ -459,7 +502,7 @@ body{
 .text3 h4{
     font-family: arial;
     padding-top: 8px;
-    padding-bottom: 5px;
+    padding-bottom: 15px;
 }
 .text4 svg{
     float: right;
@@ -472,7 +515,6 @@ body{
     font-family: arial;
     font-size:medium;
     padding-top: 8px;
-    padding-bottom: 8px;
 }
 
 .feed h3{
@@ -481,7 +523,7 @@ body{
 
 .text4{
     padding-top: 8px;
-    padding-bottom: 8px
+
 }
 
 .text4 h5{
@@ -500,8 +542,14 @@ body{
 .text4{
     padding-left: 5px;
 }
+
+.text h4{
+    font-family: arial;
+}
+
 .end{
     padding-left: 5px;
+    padding-top: 18px;
 }
 
 .following{
@@ -510,6 +558,7 @@ body{
     border-radius: 20px;
     font-family: arial;
     font-weight: 140;
+    background-color: rgb(240, 240, 240);
 }
 .follow h3{
     padding-left: 15px;
@@ -538,6 +587,61 @@ body{
 .siri button{
     float: right;
     cursor: pointer;
+    background-color:black;
+    border: none;
+    color: white;
+    text-align: center;
+    font-family: arial;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 4px;
+}
+
+.siri button{
+    border-radius: 18px;
+    margin-top: 15px;
+    height: 30px;
+    width: 80px;
+}
+.siri h4{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.show{
+    color:rgb(29, 155, 240);
+    padding-left: 10px;
+    padding-top: 25px;
+    padding-bottom: 17px;
+    font-size: 80;
+}
+
+.last p{
+    cursor: pointer;;
+}
+
+.last p:hover{
+    text-decoration: underline;;
+}
+
+.last{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.last svg{
+    float: right;
+    order: 2;
+    margin-top: 0px;
+    margin-right: 80px;
+    width: 20px;
+    height: 20px;
+}
+
+.sidebar{
+    position: fixed;
+}
+
+.middlebar{
+    margin-left: 260px;
 }
 
 
