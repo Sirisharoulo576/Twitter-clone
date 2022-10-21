@@ -317,7 +317,7 @@ body{
     border-radius: 25px;
     display: flex;
     align-items: center;
-    padding: 0 15px;
+    padding: 0 25px;
 }
 
 .rightbar__searchbox svg{
@@ -343,7 +343,7 @@ body{
 
 .actual{
     margin-top: 30px;
-    border: 1px solid silver;
+    border: 1px solid rgb(247, 249, 249);
     border-radius: 20px;
     padding: 5px;
 }
@@ -463,11 +463,9 @@ body{
     color:rgb(29, 155, 240);
 }
 
-
-
 .dots{
     float: right;
-    padding-left: 200px;
+    padding-left: 220px;
     padding-top: 0px;
 }
 
@@ -572,7 +570,7 @@ body{
 
 .siri img{
     float: left;
-    margin: 3px 6px 0 0;
+    margin: 3px 6px 0px 0px ;
 }
 
 .siri h3{
@@ -638,6 +636,7 @@ body{
     height: 20px;
 }
 
+
 .sidebar{
     position: fixed;
 }
@@ -649,6 +648,27 @@ body{
 .showh3:hover{
     background-color: lavendar;
 }
+
+.rightbar__searchbox{
+    position: sticky;
+    top: 0;
+    padding-top: 10px;
+}
+
+
+
+.following{
+    position: sticky;
+    top: 75px; 
+}
+.last{
+    position: sticky;
+    top: 410px;
+    
+}
+
+
+
 
 
 
