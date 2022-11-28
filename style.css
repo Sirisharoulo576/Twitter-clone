@@ -11,7 +11,13 @@ svg{
 }
 
 .twitter-icon{
-    padding: 20px;
+    padding-top: 8px;
+    padding-bottom: 20px;
+}
+
+.twitter-icon:hover{
+    background-color: lavender;
+    cursor: pointer;   
 }
 
 
@@ -19,7 +25,13 @@ svg{
     display: flex;
     align-items: center;
     cursor: pointer;
-    padding: 20px;
+    margin-left: 0px;
+    margin-bottom: 28px;
+    padding-right: 8px;
+}
+.icons svg{
+    width: 25px;
+    height: 25px;
 }
 
 .icons h2{
@@ -45,18 +57,34 @@ svg{
     cursor: pointer;
     color:rgb(29, 155, 240);
 }
-
     
 .icontweet{
-    width: 100%;
+    width: 110%;
     border: none;
+    font-weight:bold;
     font-size: 15px;
     border-radius: 50px;
     height: 50px;
     background-color: rgb(29, 155, 240);
     color: white;
-    margin-top: 20px;
+   
 }
+
+.id img{
+    border-radius: 60%;
+    height: 45px;  
+    position: sticky;
+    top: 650px;
+}
+.id img{
+    float: left;
+    margin: 600px 3px 6px 3px ;
+    }
+.id img h3 h4{
+    order: 2;
+    float: right;
+}
+
 
 body{
     display:flex;
@@ -71,8 +99,8 @@ body{
 }
 
 .sidebar{
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 10px;
+    padding-right: 100px;
     font-stretch: 100%;
 }
 
@@ -208,7 +236,7 @@ body{
     border-radius: 50%;
     height: 50px;
     padding-top: 3px;
-    padding-left: 5px;
+    padding-left: 10px;
     cursor: pointer;
 }
 
@@ -249,13 +277,14 @@ body{
 }
 
 .post__image img{
-    height: 390px;
+    padding-top: 10px;
+    height: 370px;
+    width: 540px;
 }
 
 .post__body img{
-    width: 450px;
     border-radius: 20px;
-    padding-left: 5px;
+    padding-left: 0px;
 }
 
 .post__footer{
@@ -266,23 +295,21 @@ body{
     font-size: 5px;
     border-bottom-color: rgb(0, 0, 0);
     padding-left: 0px;
-    padding-right: 95px;
-    fill:rgb(29, 155, 240)
+    padding-right: 110px;
+    fill:rgb(0, 0, 0sssssssssssssssss);
 }
 
 .post__footer:hover{
-    background-color: rgb(240, 240, 240);
+    background-color: rgb(247, 249, 249);
     border-radius: 50%;
     cursor: pointer;
 }
 
 .post__footer svg{
+    padding-top: 10px;
     width: 20px;
     height: 20px;
 }
-
-
-
 
 .post__headertext{
     display: flex;
@@ -290,7 +317,12 @@ body{
     justify-content: space-between;
     margin-left: 5px;   
 }
-
+.post__headertext h3{
+    padding-left: 5px;
+}
+.post__headerdescription {
+    padding-left: 10px;
+}
 .post__headerimportant{
     
     color: rgb(29, 155, 240);
@@ -595,9 +627,6 @@ body{
     display: inline-block;
     font-size: 16px;
     margin: 4px 4px;
-}
-
-.siri button{
     border-radius: 18px;
     margin-top: 15px;
     height: 30px;
@@ -642,7 +671,7 @@ body{
 }
 
 .middlebar{
-    margin-left: 260px;
+    margin-left: 195px;
 }
 
 .showh3:hover{
