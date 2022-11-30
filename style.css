@@ -76,9 +76,7 @@ svg{
     top: 660px;
 }
 .id__dotss svg{
-    float: right;
-    order: 2;
-    top: 630px;
+   
     position: sticky;
     height: 20px;
     width: 20px;
@@ -106,11 +104,13 @@ body{
 
 .sidebar{
     padding-left: 10px;
-    padding-right: 150px;
+    padding-right: 55px;
     font-stretch: 100%;
 }
 
-
+.middlebar{
+    padding-left: 55px;
+}
 .middlebar h2{
     padding: 20px;
     color: rgb(15, 20, 25);
@@ -159,7 +159,7 @@ body{
 .middlebar{
     padding-bottom: 10px;
     border-bottom: 1px solid silver;
-    padding-right: 10px;
+    padding-right: 0px;
 }
 
 .tweet form{
@@ -227,6 +227,7 @@ body{
     height: 40px;
     margin-top: 1px;
     margin-left: auto;
+    
 }
 
 .tweet{
@@ -286,7 +287,7 @@ body{
 .post__image img{
     padding-top: 10px;
     height: 370px;
-    width: 540px;
+    width: 525px;
 }
 
 .post__body img{
@@ -355,7 +356,7 @@ body{
 
 .rightbar{
     flex: 0.2;
-    padding: 0 20px;
+    padding: 0 30px;
 }
 
 
