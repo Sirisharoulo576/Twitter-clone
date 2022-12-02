@@ -69,26 +69,33 @@ svg{
     color: white;
    
 }
-.id img{
-    border-radius: 60%;
-    height: 45px;  
-    position: sticky;
-    top: 660px;
+
+.user img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    float: left;
+    padding-top: 78px;
+    padding-left: 0px;
+    
 }
-.id__dotss svg{
-   
-    position: sticky;
+.user h3 {
+    text-decoration: bold;
+}
+.user h4{
+    font-weight: 100;
+    
+}
+
+.user svg{
+    float: right;
+    order: 2;
     height: 20px;
     width: 20px;
-}
+    padding-top: 42px;
+   
 
-.id__username{
-    order: 2;
-    top: 660px;
-    padding-left: 53px;
-    position: sticky;
 }
-
 
 body{
     display:flex;
