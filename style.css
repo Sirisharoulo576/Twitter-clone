@@ -1,27 +1,27 @@
-*{
+* {
     margin: 0;
-    padding: 0; 
+    padding: 0;
 }
 
 
-svg{
+svg {
     display: flex;
     width: 30px;
     margin: 1px;
 }
 
-.twitter-icon{
+.twitter-icon {
     padding-top: 8px;
     padding-bottom: 20px;
 }
 
-.twitter-icon:hover{
+.twitter-icon:hover {
     background-color: lavender;
-    cursor: pointer;   
+    cursor: pointer;
 }
 
 
-.icons{
+.icons {
     display: flex;
     align-items: center;
     cursor: pointer;
@@ -29,158 +29,169 @@ svg{
     margin-bottom: 28px;
     padding-right: 8px;
 }
-.icons svg{
+
+.icons svg {
     width: 25px;
     height: 25px;
 }
 
-.icons h2{
+.icons h2 {
     font-weight: 400;
     font-size: 20px;
     margin: 5px 20px;
     font-family: "Arial";
 }
 
-.icons:hover{
-    background-color: rgb(247,249,249);
+.icons:hover {
+    background-color: rgb(247, 249, 249);
     border-radius: 20px;
 }
 
-.icons.active{
+.icons.active {
     color: black;
     font-style: bold;
     font-weight: 1400;
 }
 
-.twitter-icon{
-    fill:rgb(29, 155, 240);
+.twitter-icon {
+    fill: rgb(29, 155, 240);
     cursor: pointer;
-    color:rgb(29, 155, 240);
+    color: rgb(29, 155, 240);
 }
-    
-.icontweet{
+
+.icontweet {
     width: 110%;
     border: none;
-    font-weight:bold;
+    font-weight: bold;
     font-size: 15px;
     border-radius: 50px;
     height: 50px;
     background-color: rgb(29, 155, 240);
     color: white;
-   
+
 }
 
-.user img{
+.user {
+    position: absolute;
+    bottom: 10px;
+    display: flex;
+}
+
+.user img {
     width: 50px;
     height: 50px;
     border-radius: 50%;
     float: left;
-    padding-top: 78px;
     padding-left: 0px;
-    
+    margin-right: 20px;
+
 }
+
 .user h3 {
     text-decoration: bold;
 }
-.user h4{
+
+.user h4 {
     font-weight: 100;
-    
+
 }
 
-.user svg{
+.user svg {
     float: right;
     order: 2;
     height: 20px;
     width: 20px;
-    padding-top: 42px;
-   
+    margin-top: 10px;
+    margin-left: 20px;
 
 }
 
-body{
-    display:flex;
+body {
+    display: flex;
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
     padding: 0 10px;
 }
 
-.sidebar{
+.sidebar {
     border-right: 1px solid silver;
+    height: 100vh;
 }
 
-.sidebar{
+.sidebar {
     padding-left: 10px;
     padding-right: 55px;
     font-stretch: 100%;
 }
 
-.middlebar{
+.middlebar {
     padding-left: 55px;
 }
-.middlebar h2{
+
+.middlebar h2 {
     padding: 20px;
     color: rgb(15, 20, 25);
     font-weight: 400;
     font-family: "arial";
     font-size: 20px;
     padding: 20px 15px;
-    display: flex; 
-    align-items: center; 
+    display: flex;
+    align-items: center;
     font-stretch: 100%;
 }
 
-.top-tweets{
+.top-tweets {
     float: right;
     cursor: pointer;
     padding-left: 500px;
 }
 
-.top-tweets{
+.top-tweets {
     margin-left: 0px;
 }
 
-.top-tweets svg{
+.top-tweets svg {
     width: 20px;
     height: 20px;
 }
 
 
-.middlebar{
+.middlebar {
     border-right: 1px solid silver;
 }
 
 
-.tweet__sirisha img{
+.tweet__sirisha img {
     border-radius: 50%;
     height: 50px;
     padding: 10px;
     cursor: pointer;
 }
 
-.tweetbox{
+.tweetbox {
     float: right;
     padding-right: 3px;
 }
 
-.middlebar{
+.middlebar {
     padding-bottom: 10px;
     border-bottom: 1px solid silver;
     padding-right: 0px;
 }
 
-.tweet form{
+.tweet form {
     display: flex;
     flex-direction: column;
 
 }
 
-.tweet__sirisha{
+.tweet__sirisha {
     display: flex;
     padding-left: 5px;
 }
 
-.tweet__sirisha input{
+.tweet__sirisha input {
     flex: 1;
     margin-left: 10px;
     font-size: 20px;
@@ -189,42 +200,44 @@ body{
 }
 
 
-.tweet__tweetbox{
+.tweet__tweetbox {
     width: 100%;
     color: blue;
     float: right;
 }
 
-.tweet__icons{
+.tweet__icons {
     float: left;
     /* width: 6%; */
-    fill:rgb(29, 155, 240);
+    fill: rgb(29, 155, 240);
     justify-content: center;
     font-weight: 5%;
     padding: 7px;
     transition: all 0.3s ease;
 }
-.top-section-icons{
+
+.top-section-icons {
     margin-left: 84px;
 }
-.tweet__icons svg{
-    width:20px;
+
+.tweet__icons svg {
+    width: 20px;
     height: 20px;
 }
 
-.tweet__icons svg:hover{
+.tweet__icons svg:hover {
     background-color: rgb(240, 240, 240);
     border-radius: 50%;
 }
 
-.tweet__icons:hover{
+.tweet__icons:hover {
     background-color: rgb(240, 240, 240);
     color: blue;
     cursor: pointer;
     border-radius: 50%;
 }
 
-.tweet__tweetbox{
+.tweet__tweetbox {
     background-color: lightblue;
     border: none;
     color: white;
@@ -234,20 +247,20 @@ body{
     height: 40px;
     margin-top: 1px;
     margin-left: auto;
-    
+
 }
 
-.tweet{
+.tweet {
     padding-bottom: 50px;
     border-bottom: 1px solid silver;
     padding-right: 1px;
 }
 
-.post{
+.post {
     border-bottom: 1px solid silver;
 }
 
-.post__avatar img{
+.post__avatar img {
     border-radius: 50%;
     height: 50px;
     padding-top: 3px;
@@ -255,71 +268,72 @@ body{
     cursor: pointer;
 }
 
-.post__avatar img:hover{
+.post__avatar img:hover {
     background-color: rgb(240, 240, 240);
     cursor: pointer;
 }
 
-.post__headertext{
+.post__headertext {
     font-weight: 100;
     font-size: 10px;
     font-family: arial;
     display: flex;
 }
 
-.post__headertext h3{
+.post__headertext h3 {
     font-weight: 100;
     font-family: arial;
     padding-top: 15px;
 }
 
-.post{
+.post {
     display: flex;
     align-items: flex-start;
     border-bottom: 1px solid silver;
-    padding-bottom: 10px;   
+    padding-bottom: 10px;
 }
 
-.dots svg{
+.dots svg {
     width: 20px;
     height: 20px;
 }
 
-.dots svg:hover{
+.dots svg:hover {
     background-color: rgb(240, 240, 240);
     border-radius: 50px;
     cursor: pointer;
 }
 
-.post__image img{
+.post__image img {
     padding-top: 10px;
     height: 370px;
     width: 525px;
 }
 
-.post__body img{
+.post__body img {
     border-radius: 20px;
     padding-left: 0px;
 }
 
-.post__footer{
+.post__footer {
     display: block;
     float: left;
     vertical-align: middle;
-    justify-content:space-;
+    justify-content: space-;
     font-size: 5px;
     border-bottom-color: rgb(0, 0, 0);
     padding-left: 0px;
     padding-right: 3px;
-    fill:rgb(0, 0, 0);
+    fill: rgb(0, 0, 0);
 }
 
-.post__footer:hover{
+.post__footer:hover {
     background-color: rgb(247, 249, 249);
     border-radius: 50%;
     cursor: pointer;
 }
-.post__footer input{
+
+.post__footer input {
     outline: none;
     border: none;
     background-color: transparent;
@@ -328,7 +342,7 @@ body{
     padding-left: 12px;
 }
 
-.post__footer svg{
+.post__footer svg {
     padding-top: 10px;
     width: 20px;
     height: 20px;
@@ -336,20 +350,23 @@ body{
 
 }
 
-.post__headertext{
+.post__headertext {
     display: flex;
     font-size: 15px;
     justify-content: space-between;
-    margin-left: 5px;   
+    margin-left: 5px;
 }
-.post__headertext h3{
+
+.post__headertext h3 {
     padding-left: 5px;
 }
+
 .post__headerdescription {
     padding-left: 10px;
 }
-.post__headerimportant{
-    
+
+.post__headerimportant {
+
     color: rgb(29, 155, 240);
     cursor: pointer;
     display: inline;
@@ -361,27 +378,27 @@ body{
     font-style: normal;
 }
 
-.rightbar{
+.rightbar {
     flex: 0.2;
     padding: 0 30px;
 }
 
 
-.rightbar__searchbox{
+.rightbar__searchbox {
     margin-top: 5px;
     width: 350px;
-    background-color: rgb(240, 240,240);
+    background-color: rgb(240, 240, 240);
     border-radius: 25px;
     display: flex;
     align-items: center;
     padding: 0 25px;
 }
 
-.rightbar__searchbox svg{
+.rightbar__searchbox svg {
     width: 20px;
 }
 
-.rightbar__searchbox input{
+.rightbar__searchbox input {
     width: 100%;
     background: transparent;
     padding: 10px;
@@ -390,7 +407,7 @@ body{
 }
 
 
-.rightbar__searchbox{
+.rightbar__searchbox {
     width: 280px;
     height: 40px;
     font-size: 24px;
@@ -398,214 +415,225 @@ body{
 }
 
 
-.actual{
+.actual {
     margin-top: 30px;
     border: 1px solid rgb(247, 249, 249);
     border-radius: 20px;
     padding: 5px;
 }
-.actual{
+
+.actual {
     background-color: rgb(247, 249, 249);
 }
 
 
-.feed__news{
+.feed__news {
     cursor: pointer;
     width: 300px;
     display: flex;
 }
 
-.image{
+.image {
     float: right;
     order: 2;
     padding: 10px 5px;
     height: 50px;
 }
 
-.image img{
-    border-radius: 10px;;
+.image img {
+    border-radius: 10px;
+    ;
 }
 
-.feed h3{
+.feed h3 {
     font-family: arial;
     margin-top: 5px;
     margin-bottom: 20px;
 }
 
-.text:hover{
+.text:hover {
     background-color: lavender;
 }
 
-.text2:hover{
+.text2:hover {
     background-color: lavender;
 }
 
 
-.text4{
+.text4 {
     padding-bottom: 18px;
 }
 
-.text{
+.text {
     padding-bottom: 8px;
 }
 
-.text h6{
+.text h6 {
     font-weight: 60;
 }
 
 
 
-.text2 svg{
+.text2 svg {
     padding-right: 8px;
 }
-.text3 svg{
+
+.text3 svg {
     padding-right: 14px;
 }
-.text4 svg{
+
+.text4 svg {
     padding-right: 10px;
 }
-.text h5{
+
+.text h5 {
     font-weight: 100;
     font-family: arial;
 }
 
-.text h4{
+.text h4 {
     padding: 10px 0px;
 }
 
-.color{
-    color:rgb(29, 155, 240);
+.color {
+    color: rgb(29, 155, 240);
 }
 
 
-.text2 svg{
+.text2 svg {
     float: right;
-    order:2;
+    order: 2;
     weight: 20px;
     height: 20px;
 }
 
-.text svg:hover{
+.text svg:hover {
     background-color: lavender;
 }
 
 
-.text2 h5{
+.text2 h5 {
     padding-top: 5px;
 }
 
-.text2{
+.text2 {
     padding: 10px 0px;
 }
 
-.text2 h5{
+.text2 h5 {
     font-weight: 100;
 }
 
-.text2 h4{
+.text2 h4 {
     padding: 5px 0px;
     font-family: arial;
 }
 
-.text2 h6{
+.text2 h6 {
     padding: 5px 0px;
 }
 
-.end:hover{
+.end:hover {
     background-color: lavender;
     cursor: pointer;
 }
 
-.end h3{
-    color:rgb(29, 155, 240);
+.end h3 {
+    color: rgb(29, 155, 240);
 }
 
-.dots{
+.dots {
     float: right;
     padding-left: 220px;
     padding-top: 0px;
 }
 
-.dots2{
+.dots2 {
     float: right;
     order: 2;
 }
 
-.text3:hover{
+.text3:hover {
     background-color: lavender;
 }
 
-.text4:hover{
+.text4:hover {
     background-color: lavender;
 }
 
-.text3 svg{
+.text3 svg {
     float: right;
     order: 2;
     width: 20px;
     height: 20px;
 }
-.text3 h3{
+
+.text3 h3 {
     font-family: arial;
 }
-.text3 h5{
+
+.text3 h5 {
     font-weight: 100;
 }
 
-.text3 h4{
+.text3 h4 {
     font-family: arial;
     padding-top: 8px;
     padding-bottom: 15px;
 }
-.text4 svg{
+
+.text4 svg {
     float: right;
     order: 2;
     weight: 20px;
     height: 20px;
 }
 
-.text4 h3{
+.text4 h3 {
     font-family: arial;
-    font-size:medium;
+    font-size: medium;
     padding-top: 8px;
 }
 
-.feed h3{
+.feed h3 {
     padding-left: 5px;
 }
 
-.text4{
+.text4 {
     padding-top: 8px;
 
 }
 
-.text4 h5{
+.text4 h5 {
     font-weight: 100;
 }
 
-.text{
-    padding-left: 5px;
-}
-.text2{
-    padding-left: 5px;
-}
-.text3{
-    padding-left: 5px;
-}
-.text4{
+.text {
     padding-left: 5px;
 }
 
-.text h4{
+.text2 {
+    padding-left: 5px;
+}
+
+.text3 {
+    padding-left: 5px;
+}
+
+.text4 {
+    padding-left: 5px;
+}
+
+.text h4 {
     font-family: arial;
 }
 
-.end{
+.end {
     padding-left: 5px;
     padding-top: 18px;
 }
 
-.following{
+.following {
     margin-top: 20px;
     border: 1px solid rgb(240, 240, 240);
     border-radius: 20px;
@@ -613,38 +641,41 @@ body{
     font-weight: 140;
     background-color: rgb(247, 249, 249);
 }
-.follow h3{
+
+.follow h3 {
     padding-left: 15px;
     padding-top: 10px;
 }
 
-.siri img{
+.siri img {
     border-radius: 50%;
     height: 50px;
     cursor: pointer;
     padding-left: 5px;
 }
 
-.siri img{
+.siri img {
     float: left;
-    margin: 3px 6px 0px 0px ;
+    margin: 3px 6px 0px 0px;
 }
 
-.siri h3{
+.siri h3 {
     padding-top: 15px;
 }
-.siri h4{
+
+.siri h4 {
     font-weight: 100;
     padding-top: 5px;
 }
 
-.siri:hover{
+.siri:hover {
     background-color: lavender;
 }
-.siri button{
+
+.siri button {
     float: right;
     cursor: pointer;
-    background-color:black;
+    background-color: black;
     border: none;
     color: white;
     text-align: center;
@@ -657,31 +688,35 @@ body{
     height: 30px;
     width: 80px;
 }
-.siri h4{
+
+.siri h4 {
     font-family: 'Times New Roman', Times, serif;
 }
 
-.show{
-    color:rgb(29, 155, 240);
+.show {
+    color: rgb(29, 155, 240);
     padding-left: 10px;
     padding-top: 25px;
     padding-bottom: 17px;
     font-size: 80;
 }
 
-.last p{
-    cursor: pointer;;
+.last p {
+    cursor: pointer;
+    ;
 }
 
-.last p:hover{
-    text-decoration: underline;;
+.last p:hover {
+    text-decoration: underline;
+    ;
 }
 
-.last{
+.last {
     margin-top: 30px;
     margin-left: 20px;
 }
-.last svg{
+
+.last svg {
     float: right;
     order: 2;
     margin-top: 0px;
@@ -691,19 +726,19 @@ body{
 }
 
 
-.sidebar{
+.sidebar {
     position: fixed;
 }
 
-.middlebar{
+.middlebar {
     margin-left: 195px;
 }
 
-.showh3:hover{
+.showh3:hover {
     background-color: lavendar;
 }
 
-.rightbar__searchbox{
+.rightbar__searchbox {
     position: sticky;
     top: 0;
     padding-top: 10px;
@@ -711,26 +746,13 @@ body{
 
 
 
-.following{
+.following {
     position: sticky;
-    top: 75px; 
+    top: 75px;
 }
-.last{
+
+.last {
     position: sticky;
     top: 410px;
-    
+
 }
-
-
-
-
-
-
-
-
-
-
-
-    
-
-
