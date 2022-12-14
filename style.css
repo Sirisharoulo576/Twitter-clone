@@ -60,7 +60,8 @@ svg {
 }
 
 .icontweet {
-    width: 110%;
+    margin-right: 40px;
+    width: 120%;
     border: none;
     font-weight: bold;
     font-size: 15px;
@@ -71,11 +72,20 @@ svg {
 
 }
 
-.user {
+.user{
     position: absolute;
-    bottom: 10px;
-    display: flex;
+    bottom: 20px;
+    display: none;
 }
+.user:hover{
+    background-color: rgb(247, 249, 249);
+    cursor: pointer;
+}
+.user svg:hover{
+    background-color: rgb(247, 249, 249);
+    border-radius: 50%;
+}
+
 
 .user img {
     width: 50px;
@@ -83,7 +93,7 @@ svg {
     border-radius: 50%;
     float: left;
     padding-left: 0px;
-    margin-right: 20px;
+    margin-right: 10px;
 
 }
 
@@ -93,7 +103,6 @@ svg {
 
 .user h4 {
     font-weight: 100;
-
 }
 
 .user svg {
@@ -102,7 +111,7 @@ svg {
     height: 20px;
     width: 20px;
     margin-top: 10px;
-    margin-left: 20px;
+    margin-left: 40px;
 
 }
 
@@ -171,7 +180,6 @@ body {
 
 .tweetbox {
     float: right;
-    padding-right: 3px;
 }
 
 .middlebar {
@@ -204,6 +212,7 @@ body {
     width: 100%;
     color: blue;
     float: right;
+    margin-right: 10px;
 }
 
 .tweet__icons {
@@ -337,7 +346,7 @@ body {
     outline: none;
     border: none;
     background-color: transparent;
-    resize: none;
+    margin-right: 5px;
     padding-top: 14px;
     padding-left: 12px;
 }
@@ -347,6 +356,7 @@ body {
     width: 20px;
     height: 20px;
     float: left;
+    margin-right: 100px;
 
 }
 
@@ -395,13 +405,13 @@ body {
 }
 
 .rightbar__searchbox svg {
-    width: 20px;
+    width: 25px;
 }
 
 .rightbar__searchbox input {
     width: 100%;
     background: transparent;
-    padding: 10px;
+    margin-left: 20px;
     outline: none;
     border: 0;
 }
@@ -442,7 +452,7 @@ body {
 
 .image img {
     border-radius: 10px;
-    ;
+    
 }
 
 .feed h3 {
@@ -490,6 +500,10 @@ body {
     font-weight: 100;
     font-family: arial;
 }
+.text4 h6{
+    margin-top: 10px;
+    font-weight: 100;
+}
 
 .text h4 {
     padding: 10px 0px;
@@ -530,7 +544,8 @@ body {
 }
 
 .text2 h6 {
-    padding: 5px 0px;
+    margin-top: 5px;
+    font-weight: 50;
 }
 
 .end:hover {
@@ -633,45 +648,26 @@ body {
     padding-top: 18px;
 }
 
-.following {
-    margin-top: 20px;
-    border: 1px solid rgb(240, 240, 240);
+.follow{
+    margin-top: 30px;
+    border: 1px solid rgb(247, 249, 249);
     border-radius: 20px;
-    font-family: arial;
-    font-weight: 140;
     background-color: rgb(247, 249, 249);
 }
-
-.follow h3 {
-    padding-left: 15px;
-    padding-top: 10px;
+.following h3{
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-bottom: 25px;
 }
 
-.siri img {
-    border-radius: 50%;
+.accounts img{
     height: 50px;
-    cursor: pointer;
-    padding-left: 5px;
-}
-
-.siri img {
+    width: 50px;
+    border-radius:50px;
     float: left;
-    margin: 3px 6px 0px 0px;
+    
+   
 }
-
-.siri h3 {
-    padding-top: 15px;
-}
-
-.siri h4 {
-    font-weight: 100;
-    padding-top: 5px;
-}
-
-.siri:hover {
-    background-color: lavender;
-}
-
 .siri button {
     float: right;
     cursor: pointer;
@@ -689,9 +685,7 @@ body {
     width: 80px;
 }
 
-.siri h4 {
-    font-family: 'Times New Roman', Times, serif;
-}
+
 
 .show {
     color: rgb(29, 155, 240);
@@ -703,12 +697,12 @@ body {
 
 .last p {
     cursor: pointer;
-    ;
 }
 
 .last p:hover {
+
     text-decoration: underline;
-    ;
+    
 }
 
 .last {
@@ -753,6 +747,38 @@ body {
 
 .last {
     position: sticky;
-    top: 410px;
+    top: 500px;
 
 }
+.footer2{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 70px;
+    width: 100%;
+    background-color: rgb(29, 155, 240);
+    color: white;
+    text-align: center;
+    overflow-wrap: break-word;
+}
+.footer2 h2{
+    font-weight: bolder;
+    font-size: 100;
+    font-family:Arial, Helvetica, sans-serif;
+    padding-top: 12px;
+    margin-right: 250px;
+}
+.footer2 h5{
+    font-weight: 50;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 350px;
+    
+}
+.button{
+    float: right;
+    order: 2;
+    margin-right: 40px;
+   
+}
+
+
