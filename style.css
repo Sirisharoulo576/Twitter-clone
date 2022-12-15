@@ -760,6 +760,7 @@ body {
     color: white;
     text-align: center;
     overflow-wrap: break-word;
+    display: flex;
 }
 .footer2 h2{
     font-weight: bolder;
