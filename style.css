@@ -805,7 +805,7 @@ svg {
     outline: none;
     border: 1px solid white;
 }
-.form{
+#popup{
     top: 0px;
     left: 0px;
     position: fixed;
@@ -814,7 +814,6 @@ svg {
     background-color: grey;
     opacity: 0.6; 
 }
-
 .container{
     position: fixed;
     top:50%;
@@ -829,6 +828,8 @@ svg {
     flex-direction: column;
     align-items: center;
 }
+
+
 .container h2{
     margin-right: 230px;
     margin-top: 30px;
@@ -855,17 +856,14 @@ svg {
     border: 2px solid rgb(29, 155, 240);
     border-radius: 4px;
     padding-left: 10px;
-    margin-top: 15px;
-    
+    margin-top: 15px;    
 }
 .box-two svg{
     float: right;
     padding-bottom: 10px;
     height: 20px;
     width: 20px;
-    margin-right: 100px;
-    
-    
+    margin-right: 100px;   
 }
 .login-btn{
     width: 400px;
@@ -878,9 +876,7 @@ svg {
     margin-right: 30px;
     color: white;
     font-weight: bolder;
-
 }
-
 .box-two h6{
     font-family: arial;
     margin-left: 8px;
@@ -891,6 +887,8 @@ svg {
     margin-top: 20px;
     margin-right: 250px;
     font-family: arial;
-    font-weight: 80;
-    
+    font-weight: 80;   
+}
+.hide{
+    display: none;
 }
