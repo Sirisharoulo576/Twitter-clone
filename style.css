@@ -807,6 +807,7 @@ svg {
 }
 #popup{
     top: 0px;
+    display: none;
     left: 0px;
     position: fixed;
     height: 92vh;
@@ -824,7 +825,7 @@ svg {
     height: 600px;
     border-radius: 20px;
     box-shadow: 0 10px rgb(110, 110, 110, .2);
-    display: flex;
+    display: none;
     flex-direction: column;
     align-items: center;
 }
