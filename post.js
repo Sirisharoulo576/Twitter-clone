@@ -1,74 +1,78 @@
-let mainPost = [{
-    "section": "post",
-    "postAvatar": "assets/img/times_now_avatar.jpg",
-    "userName": "ResidentsMedical",
-    "userId": "@residentsmed",
-    "dots": "assets/img/dots.svg",
-    "description": "India a USD 2000 per capita economy oil prices breaking our back, says Foreign Minister S Jayashankar in US 1",
-    "image": "https://pbs.twimg.com/media/FdKEfYcXgAI9H7a?format=jpg&name=small",
-    "actions": [ 
-    {"image": "assets/img/comments.svg"},
-    {"image": "assets/img/thread.svg"},
-    {"image": "assets/img/like.svg"},
-    {"image": "assets/img/upload.svg"}]
-},
-{
-    "section": "post",
-    "postavatar": "assets/img/times_now_avatar.jpg",
-    "username": "ResidentsMedical",
-    "userid": "@residentsmed",
-    "dots": "assets/img/dots.svg",
-    "description": "India a USD 2000 per capita economy oil prices breaking our back, says Foreign Minister S Jayashankar in US 2",
-    "image": "https://pbs.twimg.com/media/FdKEfYcXgAI9H7a?format=jpg&name=small",
-    "actions": [ {"image": "assets/img/comments.svg"},
-    {"image": "assets/img/thread.svg"},
-    {"image": "assets/img/like.svg"},
-    {"image": "assets/img/upload.svg"}]
-},
-{
-    "section": "post",
-    "postavatar": "assets/img/times_now_avatar.jpg",
-    "username": "ResidentsMedical",
-    "userid": "@residentsmed",
-    "dots": "assets/img/dots.svg",
-    "description": "India a USD 2000 per capita economy oil prices breaking our back, says Foreign Minister S Jayashankar in US 3",
-    "image": "https://pbs.twimg.com/media/FdKEfYcXgAI9H7a?format=jpg&name=small",
-    "actions": [
-        {"image": "assets/img/comments.svg"},
-        {"image": "assets/img/thread.svg"},
-        {"image": "assets/img/like.svg"},
-        {"image": "assets/img/upload.svg"}]
+let mainPost = 
+//     "section": "post",
+//     "postAvatar": "assets/img/times_now_avatar.jpg",
+//     "userName": "ResidentsMedical",
+//     "userId": "@residentsmed",
+//     "dots": "assets/img/dots.svg",
+//     "description": "India a USD 2000 per capita economy oil prices breaking our back, says Foreign Minister S Jayashankar in US 1",
+//     "image": "https://pbs.twimg.com/media/FdKEfYcXgAI9H7a?format=jpg&name=small",
+//     "actions": [ 
+//     {"image": "assets/img/comments.svg"},
+//     {"image": "assets/img/thread.svg"},
+//     {"image": "assets/img/like.svg"},
+//     {"image": "assets/img/upload.svg"}]
+// },
+// {
+//     "section": "post",
+//     "postAvatar": "assets/img/times_now_avatar.jpg",
+//     "userName": "ResidentsMedical",
+//     "userId": "@residentsmed",
+//     "dots": "assets/img/dots.svg",
+//     "description": "India a USD 2000 per capita economy oil prices breaking our back, says Foreign Minister S Jayashankar in US 2",
+//     "image": "https://pbs.twimg.com/media/FdKEfYcXgAI9H7a?format=jpg&name=small",
+//     "actions": [ {"image": "assets/img/comments.svg"},
+//     {"image": "assets/img/thread.svg"},
+//     {"image": "assets/img/like.svg"},
+//     {"image": "assets/img/upload.svg"}]
+// },
+// {
+//     "section": "post",
+//     "postAvatar": "assets/img/times_now_avatar.jpg",
+//     "userName": "ResidentsMedical",
+//     "userId": "@residentsmed",
+//     "dots": "assets/img/dots.svg",
+//     "description": "India a USD 2000 per capita economy oil prices breaking our back, says Foreign Minister S Jayashankar in US 3",
+//     "image": "https://pbs.twimg.com/media/FdKEfYcXgAI9H7a?format=jpg&name=small",
+//     "actions": [
+//         {"image": "assets/img/comments.svg"},
+//         {"image": "assets/img/thread.svg"},
+//         {"image": "assets/img/like.svg"},
+//         {"image": "assets/img/upload.svg"}]
     
-},
-{
-    "section": "post",
-    "postavatar": "assets/img/times_now_avatar.jpg",
-    "username": "ResidentsMedical",
-    "userid": "@residentsmed",
-    "dots": "assets/img/dots.svg",
-    "description": "India a USD 2000 per capita economy oil prices breaking our back, says Foreign Minister S Jayashankar in US 4",
-    "image": "https://pbs.twimg.com/media/FdKEfYcXgAI9H7a?format=jpg&name=small",
-    "actions": [
-        {"image": "assets/img/comments.svg"},
-        {"image": "assets/img/thread.svg"},
-        {"image": "assets/img/like.svg"},
-        {"image": "assets/img/upload.svg"}]
-}, 
-{
-    "section": "post",
-    "postavatar": "assets/img/times_now_avatar.jpg",
-    "username": "ResidentsMedical",
-    "userid": "@residentsmed",
-    "dots": "assets/img/dots.svg",
-    "description": "India a USD 2000 per capita economy oil prices breaking our back, says Foreign Minister S Jayashankar in US 5",
-    "image": "https://pbs.twimg.com/media/FdKEfYcXgAI9H7a?format=jpg&name=small",
-    "actions": [
-        {"image": "assets/img/comments.svg"},
-        {"image": "assets/img/thread.svg"},
-        {"image": "assets/img/like.svg"},
-        {"image": "assets/img/upload.svg"}
-    ]
-}]
+// },
+// {
+//     "section": "post",
+//     "postAvatar": "assets/img/times_now_avatar.jpg",
+//     "userName": "ResidentsMedical",
+//     "userId": "@residentsmed",
+//     "dots": "assets/img/dots.svg",
+//     "description": "India a USD 2000 per capita economy oil prices breaking our back, says Foreign Minister S Jayashankar in US 4",
+//     "image": "https://pbs.twimg.com/media/FdKEfYcXgAI9H7a?format=jpg&name=small",
+//     "actions": [
+//         {"image": "assets/img/comments.svg"},
+//         {"image": "assets/img/thread.svg"},
+//         {"image": "assets/img/like.svg"},
+//         {"image": "assets/img/upload.svg"}]
+// }, 
+// {
+//     "section": "post",
+//     "postAvatar": "assets/img/times_now_avatar.jpg",
+//     "userName": "ResidentsMedical",
+//     "userId": "@residentsmed",
+//     "dots": "assets/img/dots.svg",
+//     "description": "India a USD 2000 per capita economy oil prices breaking our back, says Foreign Minister S Jayashankar in US 5",
+//     "image": "https://pbs.twimg.com/media/FdKEfYcXgAI9H7a?format=jpg&name=small",
+//     "actions": [
+//         {"image": "assets/img/comments.svg"},
+//         {"image": "assets/img/thread.svg"},
+//         {"image": "assets/img/like.svg"},
+//         {"image": "assets/img/upload.svg"}
+//     ]
+// }]
+fetch('http://localhost:3000/posts')
+.then(response =>
+    response.json()
+).then((data) => console.log(data))
 
 console.log(document);
 console.log(document.getElementById("content"));
@@ -140,10 +144,11 @@ const div6 =  document.createElement("div");
 div6.appendChild(image);
 div6.className = "post__image";
 div5.appendChild(div6);
- 
-for(let x in mainPost[0].actions) {
+
+for(let x of mainPost[0].actions) {
     let image = document.createElement("img");
-    image.src = mainPost[0].actions[x].image;
+    image.src = x.image;
+
     let div11 = document.createElement("div");
     div11.appendChild(image);
     div11.className = "post__footer";
@@ -195,9 +200,9 @@ for(let x in mainPost[0].actions) {
 //     let image = document.createElement("img");
 //     let imageSource = mainPost[0].actions[i];
 //     console.log(mainPost[0].actions[i]);
-
-
 // }
+
+
 
 // ((this is normal for loop))
 

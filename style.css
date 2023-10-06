@@ -297,7 +297,7 @@ svg {
 }
 
 .post {
-    display: flex;
+   
     align-items: flex-start;
     border-bottom: 1px solid silver;
     padding-bottom: 10px;
@@ -329,9 +329,9 @@ svg {
     display: block;
     float: left;
     vertical-align: middle;
-    justify-content: space-;
+    justify-content: space-;              
     font-size: 5px;
-    border-bottom-color: rgb(0, 0, 0);
+    border-bottom-color: rgb(0, 0, 0);                             
     padding-left: 0px;
     padding-right: 3px;
     fill: rgb(0, 0, 0);

@@ -14,8 +14,7 @@ function toggle() {
    showHide[0].style.display = "flex";
    } 
 }
-
-
+                                
 
 
 function login() {
@@ -64,10 +63,6 @@ function login() {
   }
 
 }
-
-
-
-  
 
   let footerJSON = {"section": "footer",
               "header": "Don't miss what's happening",
