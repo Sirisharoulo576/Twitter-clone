@@ -1,13 +1,21 @@
 const express = require('express')
-var cors = require('cors')
+const cors = require('cors')
+
+
 const app = express()
 const port = 3000
 
-app.get('/', (req, res) => {
-  res.send('Hello World!')
-})
+// app.use(bodyParser.json())
 
 app.use(cors())
+app.use(express.json());
+
+
+
+// app.get('/', (req, res) => {
+//   res.send('Hello World!')
+// })
+
 
 app.get('/posts', (req, res) => {
     res.json([{
@@ -82,6 +90,18 @@ app.get('/posts', (req, res) => {
         ]
     }])
   })
+
+app.post('/login', (req, res) => {
+    console.log(req.body);
+    let email = req.body.email;
+    let password = req.body.password;
+    if((email === "sirisharoulo@gmail.com" && password === "sirisha@576") || (email === "sagarroulo@gmail.com" && password === "sagar@576")) {
+        res.send({"status" : "success"})
+    }
+    else {
+        res.send({"status" : "failure"})
+    }
+})
 
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)

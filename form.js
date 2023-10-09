@@ -24,6 +24,9 @@ function login() {
   let password = document.getElementById("password").value;
   console.log(email);
   console.log(password);   
+
+  //fetch("http://localhost:3000/login", { method: "POST", body: JSON.stringify({"email": "sirisharoulo@gmail.com", password: "sirisha@576"}),  headers: { 'Content-Type': 'application/json' } })
+
   if((email === "sirisharoulo@gmail.com" && password === "sirisha@576") || (email === "sagarroulo@gmail.com" && password === "sagar@576")) {
   let containerElement = document.getElementsByClassName("container");
   if(containerElement[0].style.display === "none") {

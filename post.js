@@ -1,4 +1,4 @@
-let mainPost = 
+ let mainPost = []
 //     "section": "post",
 //     "postAvatar": "assets/img/times_now_avatar.jpg",
 //     "userName": "ResidentsMedical",
@@ -69,11 +69,8 @@ let mainPost =
 //         {"image": "assets/img/upload.svg"}
 //     ]
 // }]
-fetch('http://localhost:3000/posts')
-.then(response =>
-    response.json()
-).then((data) => console.log(data))
-
+function render(data) {
+    mainPost=data;
 console.log(document);
 console.log(document.getElementById("content"));
 const content = document.getElementById("content");
@@ -156,6 +153,100 @@ for(let x of mainPost[0].actions) {
 }
 }
 
+
+fetch('http://localhost:3000/posts')
+.then(response =>
+    response.json()
+).then(
+  (data) => { console.log(data);
+    render(data);
+    // mainPost = data;
+  
+  
+// console.log(document);
+// console.log(document.getElementById("content"));
+// const content = document.getElementById("content");
+// content.className = "post";
+// for(let y of mainPost) {
+
+
+// const postAvatar = document.createElement("img");
+// postAvatar.src = y.postAvatar;
+
+// const div0 = document.createElement("div");
+// div0.appendChild(postAvatar);
+// div0.className = "post__avatar";
+
+// const div1 = document.createElement("div");
+// div1.appendChild(div0);
+// div1.className = "post";
+
+
+
+// const dots = document.createElement("img");
+// dots.src = y.dots;
+
+
+// const div2 =  document.createElement("div");
+// div2.appendChild(dots);
+// div2.className = "dots";
+
+// const bold = document.createElement("b");
+// const boldText = document.createTextNode(y.userName);
+// bold.appendChild(boldText);
+
+// const userId = document.createElement("h3");
+// const userIdText = document.createTextNode(y.userid);
+// userId.appendChild(bold);
+// userId.appendChild(userIdText);
+// userId.appendChild(div2);
+
+// const div3 =document.createElement("div");
+// div3.appendChild(userId);
+// div3.className = "post__headertext";
+
+// const description = document.createElement("p");
+// const descriptionText = document.createTextNode(y.description);
+// description.appendChild(descriptionText);
+
+// const divdescription = document.createElement("div");
+// divdescription.appendChild(description);
+// divdescription.className = "post__headerdescription";
+
+
+// const div4 = document.createElement("div");
+// div4.appendChild(div3);
+// div4.className = "post__header";
+// div4.appendChild(divdescription);
+
+// const div5 = document.createElement("div");
+// div5.appendChild(div4);
+// div5.className = "post__body";
+// div1.appendChild(div5);
+// content.appendChild(div1);
+
+
+// const image = document.createElement("img");
+// image.src = y.image;
+
+// const div6 =  document.createElement("div");
+// div6.appendChild(image);
+// div6.className = "post__image";
+// div5.appendChild(div6);
+
+// for(let x of mainPost[0].actions) {
+//     let image = document.createElement("img");
+//     image.src = x.image;
+
+//     let div11 = document.createElement("div");
+//     div11.appendChild(image);
+//     div11.className = "post__footer";
+//     div5.appendChild(div11);
+// }
+// }
+
+
+  }
 
 
 // const comments = document.createElement("img");
